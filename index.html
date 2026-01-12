@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+   <!-- header -->
+<header class="header">
+  <a href="#Home" class="logo">Phai Chanthea</a>
+
+  <!-- hamburger button -->
+  <button class="menu-btn" id="menuBtn" aria-label="Toggle navigation" aria-expanded="false">
+    <i class="fa-solid fa-bars"></i>
+  </button>
+
+  <nav class="navbar" id="navMenu">
+    <a href="#Home">Home</a>
+    <a href="#About">About</a>
+    <a href="#Services">Services</a>
+    <a href="#testimonial">testimonial</a>
+    <a href="#Contact">Contact</a>
+  </nav>
+</header>
+
+
+
+    <section class="home" id="home">
+        <div class="home-img">
+            <img src="/profile.png" alt="profile img">
+        </div>
+
+        <div class="home-contect">
+            <h3>Hello , Myself</h3>
+            <h1>PHAI CHANTHEA</h1>
+
+            <H3>And I'm a <span class="multiple-text"></span></H3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima a iusto doloremque quae reprehenderit
+                aperiam natus tempore officiis asperiores? Aut, dolores labore dolorum voluptas illo perspiciatis
+                delectus vero dolor doloribus?</p>
+        </div>
+        <div class="social-media">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-github"></i></a>
+            <a href="#"><i class="fa-brands fa-telegram"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<script>
+  const typed = new Typed(".multiple-text", {
+    strings: ["Web Developer", "Designer", "Blogger", "Youtuber"],
+    typeSpeed: 80,
+    backSpeed: 50,
+    backDelay: 1500,
+    loop: true
+  });
+</script>
+
+
+
+
+</body>
+
+</html>
